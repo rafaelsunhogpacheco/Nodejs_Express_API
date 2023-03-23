@@ -1,8 +1,9 @@
 const connection = require('./connection')
 
 
-const getAll = () => {
-
+const getAll =  async () => {
+    const products = await connection.execute('SELECT * FROM products')
+    return products
 }
 
 modules.exports = {

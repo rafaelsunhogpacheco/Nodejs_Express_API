@@ -1,0 +1,23 @@
+
+// Consultar os os usuários cadastrados
+GET http://localhost:3000/products
+
+
+// Criar novo usuário
+# POST http://localhost:3000/users
+# Content-Type: application/json
+
+# {
+#   "name": "Jose",
+#   "password": "chave"
+# }
+
+
+// Requisitar acesso
+# POST http://localhost:3000/users/login
+# Content-Type: application/json
+
+# {
+#   "name": "Maria",
+#   "password": "pasord"
+# }
