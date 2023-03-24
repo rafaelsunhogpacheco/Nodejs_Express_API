@@ -1,5 +1,7 @@
-const { createPool } = require('mysql2')
+// const { createPool } = require('mysql2')
 const mysql = require('mysql2/promise')
+
+require('dotenv').config()
 
 
 const connection = mysql.createPool({
@@ -10,5 +12,5 @@ const connection = mysql.createPool({
 })
 
 
-modules.exports(createPool)
+module.exports = connection
 

@@ -6,6 +6,6 @@ const getAll =  async () => {
     return products
 }
 
-modules.exports = {
+module.exports = {
     getAll
 }
