@@ -1,44 +1,4 @@
 
-// Consultar os os usuários cadastrados
+// Consultar os produtos cadastrados
   GET http://localhost:3000/products
-
-
-// Consultar os usuário por id
-#  GET http://localhost:3000/2
-
-
-
-
-// Criar novo usuário
-POST http://localhost:3000/
-Content-Type: application/json
-
-  {
-    "id": 4,
-    "nome": "Rafael",
-    "idade": 25,
-    "cidade": "Rio de Janeiro"
-}
-
-
-
-// Atualizar informações
-PUT http://localhost:3000/2
-Content-Type: application/json
-  {
-    "id": 2,
-    "nome": "Rafael Pacheco",
-    "idade": 25,
-    "cidade": "Sorocaba"
-  }
-
-
-
-
-
-router.get("/",productsController.getAll)
-router.get("/:id",productsController.getById)
-router.post("/",productsController.create)
-router.put("/:id",productsController.update)
-router.delete("/:id",productsController.delete)
 
