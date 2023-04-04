@@ -3,14 +3,15 @@ const mysql = require('mysql2/promise')
 
 require('dotenv').config()
 
-const connection = mysql.createPool({
-    host: process.env.MYSQL_HOST,
-    user: process.env.MYSQL_USER,
-    password: process.env.MYSQL_PASSWORD,
-    database:process.env.MYSQL_DB
-})
+// const connection = mysql.createPool({
+//     host: process.env.MYSQL_HOST,
+//     user: process.env.MYSQL_USER,
+//     password: process.env.MYSQL_PASSWORD,
+//     database:process.env.MYSQL_DB
+// })
 
-module.exports = connection
+// module.exports = connection
+
 
 
 const Sequelize = require("sequelize")
@@ -24,7 +25,7 @@ sequelize.authenticate()
 .then(function(){
     console.log("Conexao com DB realizada com sucesso")
 }).catch(function(){
-    console.log("Erro conexao com DB não realizada com sucesso")
+    console.log("Erro conexao com DB não realizada")
 })
 
 module.exports = sequelize 
