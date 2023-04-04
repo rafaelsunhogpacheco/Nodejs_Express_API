@@ -13,8 +13,8 @@
 const sequelize = require("./connection")
 
 const getAll = async () => {
-    constproducts = await sequelize.execute('SELECT * from products')
-    return process
+    const products = await sequelize.execute('SELECT * from products')
+    return products
 }
 
 module.exports = {
