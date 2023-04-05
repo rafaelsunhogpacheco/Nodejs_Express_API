@@ -1,16 +1,10 @@
-const express = require('express')
-const app = express()
-const router = require('./router')
+const express = require('express');
 
-
-app.use(router)
-
-
-// const servidor = express()
+const app = express();
 app.use(express.json())
-app.use(express.urlencoded({extended:true}))
-// servidor.use(rotas)
-// const PORTA = 3000
+const productRoutes = require('./routes/routes');
+
+app.use(productRoutes);
 
 
 

@@ -1,4 +1,8 @@
 
 // Consultar os produtos cadastrados
-  GET http://localhost:3000/products
+# GET http://localhost:3000/product
+
+  
+  
+GET http://localhost:3000/product/1
 
