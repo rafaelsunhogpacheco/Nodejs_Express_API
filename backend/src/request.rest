@@ -34,4 +34,7 @@ Content-Type: application/json
         "price":59.90
     }
   
-
+###
+# Delete a produtc by Id
+# Deletar um produto usando a Id
+DELETE http://localhost:3000/product/2
