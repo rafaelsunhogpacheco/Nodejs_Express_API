@@ -21,5 +21,17 @@ Content-Type: application/json
         "price":29.99
     }
   
+###
+# Create a produtc
+# Criar um produto
+POST http://localhost:3000/product/
+Content-Type: application/json
 
+    {
+        "product_name":"Headset Gamer",
+        "product_desc":"Headset Gamer Prolix Tool",
+        "quantity":15,
+        "price":59.90
+    }
+  
 
