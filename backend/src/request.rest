@@ -1,8 +1,25 @@
 
-// Consultar os produtos cadastrados
-# GET http://localhost:3000/product
+# GetAll
+# Consultar os produtos cadastrados
+GET http://localhost:3000/product
 
-  
-  
+###  
+# Get by Id
+# Consultar os produtos por Id
 GET http://localhost:3000/product/1
+
+###  
+# Update a produtc by Id
+# Atualizar um produto utilizando a Id
+PUT http://localhost:3000/product/1
+Content-Type: application/json
+
+    {
+        "product_name":"Produto de Teste",
+        "product_desc":"Descricao corrigida",
+        "quantity":12,
+        "price":29.99
+    }
+  
+
 
