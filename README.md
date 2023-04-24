@@ -19,7 +19,7 @@ CRUD
 
 
 ### Pré-requisitos 
-1. NOde.js
+1. Node.js
 2. Express
 
 #### Modo devDependencies
