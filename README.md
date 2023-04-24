@@ -2,7 +2,7 @@
 API rest Backend server using Node.js and Express
 
 ### Status do Projeto:
-Em construção
+Finalizado
 
 ### Features
 CRUD
