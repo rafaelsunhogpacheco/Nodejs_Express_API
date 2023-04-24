@@ -38,9 +38,18 @@ $ cd <path>
 * Instale as dependências
 $ npm install
 
+* Copie o arquivo .env.example e renomeio-o para .env informando os seguintes parâmetros
+
+PORT=
+DB_HOST=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+
+
 * Execute a aplicação 
 $ node servidor.js
-* O servidor inciará na porta:3000
+* O servidor inciará na porta indicada, nestre exemplo estamos utilizando a porta 3000
 
 ### Para testar o projeto
 
