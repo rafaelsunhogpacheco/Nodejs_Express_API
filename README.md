@@ -30,7 +30,7 @@ CRUD
 (ou você pode usar Postman ou outra extensão para reazlizar o teste das rotas e as respostas)
 
 ### Como rodar a aplicação
-$ git clone <git@github.com:dev-rafa1707/API_Nodejs_Express.git>
+$ git clone <git@github.com:dev-rafa1707/API_Nodejs_Express.git>.
 
 * Acesse a pasta do projeto no terminal/cmd indicando o caminho da pasta
 $ cd <path>
@@ -38,18 +38,18 @@ $ cd <path>
 * Instale as dependências
 $ npm install
 
-* Copie o arquivo .env.example e renomeio-o para .env informando os seguintes parâmetros
+* Copie o arquivo .env.example e renomeio-o para .env informando os seguintes parâmetros. As informações abaixo são colocadas por padrão, mas você deve informar de acordo com seu acesso específico.
 
-PORT=
-DB_HOST=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
+PORT= <3000>
+DB_HOST= <localhost>
+DB_USER= <root>
+DB_PASSWORD= <senha do respectivo MySQL>
+DB_NAME= <nome do banco de dados>
 
 
 * Execute a aplicação 
 $ node servidor.js
-* O servidor inciará na porta indicada, nestre exemplo estamos utilizando a porta 3000
+* O servidor inciará na porta indicada, neste exemplo estamos utilizando a porta 3000
 
 ### Para testar o projeto
 
