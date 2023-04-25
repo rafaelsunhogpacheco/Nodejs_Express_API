@@ -6,19 +6,19 @@ GET http://localhost:3000/product
 ###  
 # Get by Id
 # Consultar os produtos por Id
-GET http://localhost:3000/product/3
+GET http://localhost:3000/product/5
 
 ###  
 # Update a product by Id
 # Atualizar um produto utilizando a Id
-PUT http://localhost:3000/product/3
+PUT http://localhost:3000/product/1
 Content-Type: application/json
 
     {
-        "product_name":"Headset Gamer",
-        "product_desc":"Headset Gamer Prolix Tool 2",
-        "quantity":17,
-        "price":89.9
+        "product_name":"Notebook Dell",
+        "product_desc":"Notebook Dell Inspiron 6578",
+        "quantity":10,
+        "price":2359
     }
   
 ###
@@ -28,13 +28,13 @@ POST http://localhost:3000/product/
 Content-Type: application/json
 
     {
-        "product_name":"Notebook Dell ",
-        "product_desc":"Notebook Dell Inspiron 3184",
-        "quantity":10,
-        "price":2599
+        "product_name":"Teclado gamer H138",
+        "product_desc":"Teclado gamer Logitech Special",
+        "quantity":8,
+        "price":99
     }
   
 ###
 # Delete a produtc by Id
 # Deletar um produto usando a Id
-DELETE http://localhost:3000/product/3
+DELETE http://localhost:3000/product/8
