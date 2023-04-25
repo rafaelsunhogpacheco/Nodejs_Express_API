@@ -37,4 +37,4 @@ Content-Type: application/json
 ###
 # Delete a produtc by Id
 # Deletar um produto usando a Id
-DELETE http://localhost:3000/product/2
+DELETE http://localhost:3000/product/3
